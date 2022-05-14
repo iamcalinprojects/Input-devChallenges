@@ -1,0 +1,45 @@
+.body-inputs{
+    margin-left: 83px;
+}
+.font{
+    font-family: 'Poppins';
+    font-size:24px;
+    color:#4F4F4F;
+}
+.font-footer{
+    font-family: 'Montserrat';
+    font-size:14px;
+    margin-left: 81px;
+    color: #9E9E9E;
+}
+.title{
+    margin-left: 81px;
+}
+.section{
+    margin-left:81px;
+}
+input{
+    border: 1px solid #828282;
+    border-radius: 8px;
+    padding:1rem;
+}
+div p{
+    font-family: 'Noto Sans';
+    margin-bottom:0px !important;
+    font-size:12px;
+    color: #333333;
+}
+.mb-6{
+    margin-bottom:4rem;
+}
+
+.input-p{
+    font-family: 'Ubuntu-mono';
+    margin-bottom: 1rem !important;
+    color: #828282;
+}
+.interesting-text{
+    margin-left: 81px;
+    margin-top: .2rem;
+}
+

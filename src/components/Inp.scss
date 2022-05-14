@@ -1,0 +1,104 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+.inputs {
+    .inputed {
+        padding: 12px 20px;
+        border-radius: 8px;
+        outline: none!important;
+        border: 1px solid #828282;
+        position: relative;
+        background-color: white;
+        cursor: text;
+        width: 150px;
+        &:hover {
+            border: 1px solid #333333;
+        }     
+        &:focus {
+            border: 1px solid #2962FF;
+        }  
+    }
+    .default {
+        &:hover {
+            border: 1px solid #333333;
+        }     
+        &:focus {
+            border: 1px solid #2962FF;
+        }   
+    }
+    .error {
+        border: 1px solid #D32F2F;
+        &:hover {
+            border: 1px solid #333333;
+        }
+        &:focus {
+            border: 1px solid #D32F2F;
+        }
+    }
+    .disabled {
+        cursor: not-allowed!important;
+        background-color: #E0E0E0;
+    }
+    .full {
+        width: 75vw;
+    }
+    .sm {
+        padding: 5px 20px;
+        border-radius: 8px;
+        outline: none!important;
+        border: 1px solid #828282;
+        position: relative;
+        background-color: white;
+        cursor: text;
+        width: 150px;
+    }
+    .md {
+        padding: 12px 20px;
+        border-radius: 8px;
+        outline: none!important;
+        border: 1px solid #828282;
+        position: relative;
+        background-color: white;
+        cursor: text;
+        width: 150px;
+    }
+
+}
+.input-icon{
+    width: 100%;
+    position: relative;
+}
+.icon{
+    top: 1.1rem;
+    left: .5rem;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    color: #828282;
+}
+.icon-lock{
+    top: 1.1rem;
+    left: 7.3rem;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    color: #828282;
+}
+.phone-icon{
+    padding-left: 2rem !important;
+}
+.text-black-input::placeholder{
+    color: black !important;
+}
+.full-width{
+    width:75vw !important;
+}
+.area-input{
+    padding: 12px 20px;
+    border-radius: 8px;
+    outline: none!important;
+    border: 1px solid #828282;
+    position: relative;
+    background-color: white;
+    cursor: text;
+    width: 150px;
+}
